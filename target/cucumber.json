@@ -1,0 +1,204 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11091283500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "browserHooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "search for help",
+        "description": "",
+        "id": "help-page;search-for-help;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 782132100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "browserHooks.closeDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1157408100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the help page url",
+            "match": {
+              "location": "HelpPageStepDef.i_navigate_to_the_helpl_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1422576201,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for a term card",
+            "match": {
+              "arguments": [
+                {
+                  "val": "card",
+                  "offset": 20
+                }
+              ],
+              "location": "HelpPageStepDef.iSearchForATerm(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 170576099,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Search results message should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search results",
+                  "offset": 0
+                }
+              ],
+              "location": "HelpPageStepDef.message_should_be_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@test22"
+          },
+          {
+            "line": 1,
+            "name": "@Feature_Help_Page"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10077020500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "browserHooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "search for help",
+        "description": "",
+        "id": "help-page;search-for-help;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 838834700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "browserHooks.closeDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 812083100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the help page url",
+            "match": {
+              "location": "HelpPageStepDef.i_navigate_to_the_helpl_page_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1148092799,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for a term money",
+            "match": {
+              "arguments": [
+                {
+                  "val": "money",
+                  "offset": 20
+                }
+              ],
+              "location": "HelpPageStepDef.iSearchForATerm(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115507701,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Search results message should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search results",
+                  "offset": 0
+                }
+              ],
+              "location": "HelpPageStepDef.message_should_be_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@test22"
+          },
+          {
+            "line": 1,
+            "name": "@Feature_Help_Page"
+          }
+        ]
+      }
+    ],
+    "name": "Help Page",
+    "description": "",
+    "id": "help-page",
+    "keyword": "Feature",
+    "uri": "HelpPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Feature_Help_Page"
+      }
+    ]
+  }
+]
