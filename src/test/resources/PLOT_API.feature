@@ -8,4 +8,3 @@
       Then I should see the 6 titles in the response with subject DNA
       And 200 statusCode should be displayed for subject DNA
       And I should see only articles containing DNA
-      DFDFDFDFDFD
